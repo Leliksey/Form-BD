@@ -1,0 +1,40 @@
+.input {
+ 	display: flex;
+ 	flex-direction: column;
+ 	position: absolute;
+ 	left: 45%;
+ 	top: 250px;
+ }
+ input {
+ 	margin-top: 10px;
+ }
+ .base {
+ 	max-width: 700px;
+ 	background-color: linen;
+ 	border-radius: 10px;
+ 	margin-right: 20%;
+ 	position: relative;
+ }
+ nav {
+ 	width: 30px;
+ 	height: 30px;
+ 	background-color: green;
+ 	margin: 15px;
+ 	color: white;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	font-size: 2rem;
+ 	font-weight: bold;
+ }
+ nav:hover {
+ 	cursor: pointer;
+ }
+
+ div {
+ 	position: absolute;
+ 	margin-left: 40%;
+ }
+ button {
+ 	margin-top: 10px;
+ }
